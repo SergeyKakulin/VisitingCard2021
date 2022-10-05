@@ -1,0 +1,50 @@
+main {
+  background: #1b4b5a;
+  color: #89c0bd;
+  text-shadow: 2px 2px 2px #000;
+}
+
+h1 {
+  color: #89c0bd;
+}
+.container {
+  background: linear-gradient(
+    to right bottom,
+    rgba(15, 31, 56, 0.4),
+    rgba(15, 31, 56, 0.01)
+  );
+}
+
+td {
+  border: 2px solid #2c4a52;
+}
+
+.table1 {
+  border: 4px solid #2c4a52;
+}
+
+.mainPhoto {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.mainPhoto:hover {
+  box-shadow: 1px 1px #537072, 2px 2px #537072, 3px 3px #537072, 4px 4px #537072,
+    5px 5px #537072, 6px 6px #537072, 7px 7px #537072;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+.theme {
+  background: #222222;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.floating-button {
+  color: #7a7a7a;
+  background: #222222;
+}
+.floating-button:hover {
+  background: #2ee59d;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+  /* color: white; */
+}
